@@ -29,3 +29,6 @@ conda update conda
 ```
 conda install PACKAGENAME
 ```
+## SINGULARITY
+
+## APPTAINER
