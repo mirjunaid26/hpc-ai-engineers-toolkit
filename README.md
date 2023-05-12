@@ -2,4 +2,7 @@
 
 
 ## Useful Commands
-1. To deactivate auto_autoactivate_conda: ```conda config --set auto_activate_base False```
+1. To deactivate auto_autoactivate_conda: 
+```
+conda config --set auto_activate_base False
+```
