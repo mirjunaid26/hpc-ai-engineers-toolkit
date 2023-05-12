@@ -14,7 +14,7 @@ An ssh config file is a text file that contains all of your ssh connection infor
 ```
 vi .ssh/config
 ```
-## CONDA Cheatsheet
+## CONDA
 
 ### Conda Basics
 **C1**. Verify conda is installed, check version number
