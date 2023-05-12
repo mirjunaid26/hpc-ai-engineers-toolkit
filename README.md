@@ -2,7 +2,7 @@
 
 
 ## Useful Random Commands
-### 1. To deactivate auto_autoactivate_conda which displays (base) infront of the username. 
+### 1. To deactivate `auto_autoactivate_conda` which displays `(base)` infront of the username. 
 ```
 conda config --set auto_activate_base False
 source ~/.bashrc
