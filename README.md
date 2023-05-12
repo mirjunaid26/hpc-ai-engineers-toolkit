@@ -16,11 +16,11 @@ vi .ssh/config
 ### 3. CONDA Cheatsheet
 
 #### Conda Basics
-Verif conda is installed, check version number
+C1. Verif conda is installed, check version number
 ```
 conda info
 ```
-Update conda to the current version
+C2. Update conda to the current version
 ```
 conda update conda
 ```
