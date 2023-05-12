@@ -3,7 +3,9 @@ While working as AI/HPC Research Engineer, there are number of errors and bugs t
 
 ## LINUX
 **L1**. To deactivate `auto_autoactivate_conda` which displays `(base)` infront of the username.
+
 ![auto_activate_conda](https://drive.google.com/file/d/14RrBWG3xGZjRa1FBFpYAaJwZg4vcimyY/view?usp=share_link)
+
 ```
 conda config --set auto_activate_base False
 source ~/.bashrc
