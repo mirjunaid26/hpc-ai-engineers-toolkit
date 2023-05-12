@@ -1,6 +1,6 @@
 # HPC and Linux Toolbox
 
-$${\color{red}Red}$$
+$${\color{red}HPC and Linux Toolbox}$$
 
 ## Useful Random Commands
 ### 1. To deactivate `auto_autoactivate_conda` which displays `(base)` infront of the username. 
