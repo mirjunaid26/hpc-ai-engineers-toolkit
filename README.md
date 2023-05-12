@@ -1,4 +1,4 @@
-# HPC Engineer's Toolkit
+# HPC/AI Engineer's Toolkit
 While working as AI/HPC Research Engineer, there are numbers of errors and bugs I have to encounter every day related to Linux, HPC tools, Containers, and Python programming. I have decided to list them down on a git repo with the respective solutions.
 
 ## Linux
