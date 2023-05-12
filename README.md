@@ -1,4 +1,5 @@
 # HPC & Linux Toolkit
+Instead of just searching and fixing bugs, I have decided to keep a record errors and the respective solutions.
 
 ## Linux
 ### L1. To deactivate `auto_autoactivate_conda` which displays `(base)` infront of the username. 
