@@ -1,5 +1,5 @@
 # HPC & Linux Toolkit
-Instead of just searching and fixing bugs, I have decided to keep a record errors and the respective solutions.
+While working as AI/HPC Research Engineer, there are numbers of errors and bugs I have to encounter every day related to Linux, HPC tools, Containers, and Python programming. I have decided to list them down on a git repo with the respective solutions.
 
 ## Linux
 ### L1. To deactivate `auto_autoactivate_conda` which displays `(base)` infront of the username. 
