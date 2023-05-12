@@ -1,5 +1,5 @@
 ```diff
--# HPC and Linux Toolbox
+# HPC and Linux Toolbox
 ```
 
 ## Useful Random Commands
