@@ -2,7 +2,8 @@
 While working as AI/HPC Research Engineer, there are number of errors and bugs that I encounter on daily basis related to Linux, HPC tools, Containers, and Python programming. I have decided to pen them down on a git repo with the respective solutions.
 
 ## LINUX
-**L1**. To deactivate `auto_autoactivate_conda` which displays `(base)` infront of the username. 
+**L1**. To deactivate `auto_autoactivate_conda` which displays `(base)` infront of the username.
+![auto_activate_conda](https://user-images.githubusercontent.com/16865278/176794994-0558eccf-1e2b-40dc-9b78-354f82901cc5.png)
 ```
 conda config --set auto_activate_base False
 source ~/.bashrc
