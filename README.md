@@ -17,6 +17,7 @@ vi .ssh/config
 
 #### Conda Basics
 Verif conda is installed, check version number```
-conda info```
+conda info
+```
 
 
