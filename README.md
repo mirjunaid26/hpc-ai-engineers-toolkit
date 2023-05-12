@@ -1,4 +1,4 @@
-# HPC and Linux Toolbox
+# HPC and Linux Toolkit
 
 ## Useful Random Commands
 ### 1. To deactivate `auto_autoactivate_conda` which displays `(base)` infront of the username. 
@@ -13,3 +13,9 @@ An ssh config file is a text file that contains all of your ssh connection infor
 ```
 vi .ssh/config
 ```
+### 3. CONDA Cheatsheet
+
+#### Conda Basics
+Verif conda is installed, check version number ``` conda info ```
+
+
