@@ -20,5 +20,8 @@ Verif conda is installed, check version number
 ```
 conda info
 ```
-
+Update conda to the current version
+```
+conda update conda
+```
 
