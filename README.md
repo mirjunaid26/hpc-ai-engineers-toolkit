@@ -1,7 +1,7 @@
 # HPC/AI Engineer's Toolkit
 While working as AI/HPC Research Engineer, there are number of errors and bugs that I encounter on daily basis related to Linux, HPC tools, Containers, and Python programming. I have decided to pen them down on a git repo with the respective solutions.
 
-## Linux
+## LINUX
 **L1**. To deactivate `auto_autoactivate_conda` which displays `(base)` infront of the username. 
 ```
 conda config --set auto_activate_base False
