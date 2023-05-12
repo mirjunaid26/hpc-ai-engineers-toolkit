@@ -16,7 +16,8 @@ vi .ssh/config
 ### 3. CONDA Cheatsheet
 
 #### Conda Basics
-Verif conda is installed, check version number```
+Verif conda is installed, check version number
+```
 conda info
 ```
 
