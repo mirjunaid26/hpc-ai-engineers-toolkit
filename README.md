@@ -17,7 +17,8 @@ vi .ssh/config
 ```
 ## SINGULARITY
 
-## APPTAINER
+## APPTAINER: THE CONTAINER SYSTEM FOR HIGH PERFORMANCE COMPUTING
+Apptainer/Singularity is the most widely used container system for HPC. It is designed to execute applications at bare-metal performance while being secure, portable, and 100% reproducible. Apptainer is an open-source project with a friendly community of developers and users. The user base continues to expand, with Apptainer/Singularity now used across industry and academia in many areas of work.
 
 ## CONDA
 ### Conda Basics
