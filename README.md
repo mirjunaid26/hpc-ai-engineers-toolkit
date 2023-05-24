@@ -1,4 +1,4 @@
-# HPC/AI Engineer's Toolkit
+# HPC Toolkit
 
 ## CONTENTS
 
