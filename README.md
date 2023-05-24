@@ -1,4 +1,4 @@
-# HPC Toolkit
+# HPC Toolkit - ECN Supercomputing Center
 
 
 
