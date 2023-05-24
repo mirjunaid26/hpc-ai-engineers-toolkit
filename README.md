@@ -4,6 +4,13 @@
 
 ## CONTENTS
 
+
+# Connect by SSH
+
+
+1. If you are ECN faculty, researcher, student, or staff and connected to wired campus network or through wireless eduroam network.
+    - 
+
 # 1. BASIC LINUX COMMANDS
 # 2. SLURM
 # 3. APTTAINERS/SINGULARITY CONTAINERS
