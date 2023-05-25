@@ -80,7 +80,16 @@ def dot(a, b):
                 c[i, j] += a [i, k] * b[k, j]
     return c
 ```
+# Let's two small matrices and see how long the above function takes to conpute matrix multiplication.
+```
+n = 256
+a = numpy.random.random((n, n))
+b = numpy.random.random((n, n))
 
+t_dot = %timeit -o dot(a, b)
+```
 
-
-
+# A matrix multiplication of two n by n matrices performs 2n^3 operations. The dot function achieves
+```
+print("%.3f GFLOP/s" % (2e-9 * n**3 / t_dot.best))
+```
