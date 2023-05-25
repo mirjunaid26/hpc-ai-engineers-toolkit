@@ -2,7 +2,7 @@
 
 
 
-## CONTENTS TEST
+## CONTENTS
 
 
 # 1. Connect by SSH
