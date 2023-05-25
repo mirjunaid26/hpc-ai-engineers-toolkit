@@ -51,3 +51,36 @@ conda update conda
 ```
 conda install PACKAGENAME
 ```
+## PYTHON
+
+Python is slow but Numba makes it faster.
+Example: Matrix Multiplication
+```
+
+import numpy
+def dot(a, b):
+    """Multiply the matrix a with the matrxi b.
+    
+    Parameters
+    ----------
+    a: ndarray
+        left matrxi
+    b: ndarray
+        right matrix
+        
+    Return
+    ------
+    c: ndarray
+        result matrix
+    """
+    c = numpy.zeros((a.shape[0], b.shape[1]))
+    for i in range(a.shape[0]):
+        for j in range(b.shape[1]):
+            for k in range(a.shape[1]):
+                c[i, j] += a [i, k] * b[k, j]
+    return c
+```
+
+
+
+
