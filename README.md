@@ -9,7 +9,7 @@
 
 
 1. If you are ECN faculty, researcher, student, or staff and connected to wired campus network or through wireless eduroam network.
-    - 
+    - On canpus
 
 # 1. BASIC LINUX COMMANDS
 # 2. SLURM
