@@ -5,16 +5,11 @@
 ## CONTENTS
 
 
-# Connect by SSH
-
-
-1. If you are ECN faculty, researcher, student, or staff and connected to wired campus network or through wireless eduroam network.
-    - 
-
-# 1. BASIC LINUX COMMANDS
-# 2. SLURM
-# 3. APTTAINERS/SINGULARITY CONTAINERS
-# 4. Python
+# 1. Connect by SSH
+# 2. Basic Linux Commands
+# 3. SLURM
+# 4. Apptainer/Singularity Containers
+# 5. Python
 
 While working as AI/HPC Research Engineer, there are number of errors and bugs that I encounter on daily basis related to Linux, HPC tools, Containers, and Python programming. I have decided to pen them down on a git repo with the respective solutions...
 
