@@ -8,28 +8,15 @@
 
 ## HPC Toolkit
 
-
-
-NEW IDEAS
-1. Poll the users: Send a survey email to the users with a few questions that help us better understand their struggles and we can design courses and help them accordingly. Which tools and softwares do they use or plan to use?
-1. Workshop in ECN or offer a course in High Performance Computing.
-2. We can also conduct a regional workshop in 2023-24 session.
-3. Montly blog posts about Cluster and new code demonstration.
-4. Video Tutorials/Animations  
-5. Voice over Google Slides for Presentation
-
-
-- Create a list of milestones and 
-- Compile course content, materials, and resources
-----------------------------------------------------------------------------------------------------------------------------------------
-
 CONTENTS
 
 1. Connect by SSH
 2. Basic Linux Commands
-3. SLURM
-4. Apptainer/Singularity Containers
-5. Python/Numba
+3. SLURM/CLAM
+4. Jupyter Notebook/JupyterLab/Google Colab
+5. Apptainer/Singularity Containerization
+6. Parallel Programming(CUDA Python/Numba/C++)
+7. HPC for AI
 
 ### 1. Connect to SUPERCOMPUTER via SSH
 
@@ -47,18 +34,54 @@ Open a terminal and SSH as shown below
 ```
 ssh username@liger-ec-nantes.fr
 ```
+--------------------------------------------------------------------------------------------------------------------------------------
+### 3. SLURM
 
-### 3. SLURM/CLAM
-
-1. How to use SLURM to submit jobs on the cluster?
-2. How to use CLAM to monitor usage and jobs?
-
-
-- Understanding SLURM: SLURM (Simple Linux Utility for Resource Management) is a popular job scheduling and workload management system used in many high-performance computing environments. SLURM allows users to submit and manage jobs on a cluster of computers. It provides a framework for allocating resources (such as CPU cores, memory, and GPUs) and scheduling jobs efficiently.
+SLURM (Simple Linux Utility for Resource Management) is a popular job scheduling and workload management system used in many high-performance computing environments. SLURM allows users to submit and manage jobs on a cluster of computers. It provides a framework for allocating resources (such as CPU cores, memory, and GPUs) and scheduling jobs efficiently.
 - Logging in: To use SLURM, you need access to a cluster where SLURM is installed. Log in to the cluster using SSH or any other method provided by your system administrator.
-- Logging in: To use SLURM, you need access to a cluster where SLURM is installed. Log in to the cluster using SSH or any other method provided by your system administrator.
+- Job Script: Create a job script that describes the resources required for your job and the commands to be executed. A typical SLURM job script is a shell script with special directives recognized by SLURM. Here's an example job script:
+```
+#!/bin/bash
+#SBATCH --job-name=myjob
+#SBATCH --output=output.txt
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4
 
-### 4. Apptainer/Singularity Containers
+# Commands to run
+echo "Hello, World!"
+
+```
+In this example, the job script specifies the job name, the output file name, the number of nodes, and the number of tasks per node. The last line is a sample command to print "Hello, World!".
+
+- Submitting a Job: Use the sbatch command to submit your job script to SLURM:
+```
+sbatch job_script.sh
+
+```
+This will submit your job to the SLURM scheduler for execution.
+
+- Checking Job Status: You can check the status of your jobs using the squeue command:
+```
+squeue -u your_username
+```
+This will display information about your jobs, such as job ID, job name, status, and other details.
+
+- Managing Jobs: You can cancel a running job using the scancel command followed by the job ID:
+```
+scancel job_id
+```
+
+- To view detailed information about a specific job, including its resource usage, use the scontrol command:
+```
+scontrol show job job_id
+```
+
+- Job Output: By default, SLURM captures the standard output and standard error of your job in a file. In the job script example, the output is redirected to output.txt. After the job finishes, you can examine this file to see the job's output.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+### 4. CLAM
+--------------------------------------------------------------------------------------------------------------------------------------
+### 5. Apptainer/Singularity Containers
 
 Live Demonstration on the New Cluster(90 minutes session)
 
@@ -68,14 +91,11 @@ Live Demonstration on the New Cluster(90 minutes session)
 4. How to use containers for reproducible research?
 5. Record the video and share on Glicid platform/docs.
 
-### 5. JupyterLab and Jupyter Notebook Tutorial
+### 6. JupyterLab and Jupyter Notebook Tutorial
+--------------------------------------------------------------------------------------------------------------------------------------
 
-### 6. Python/Numba
-Examples and code demos
+### 7. Parallel Programming (CUDA Python/Numba/C++)
 
-HOW TO SUBMIT PYTHON SCRIPT ON THE CLUSTER.
-
-Demonstrate the power of Numba/Python. Why use HPC?
 
 # Matrix Multiplication
 
@@ -131,19 +151,10 @@ t_jit = %timeit -o jdot(a, b)
 
 print("%.3f GFLOP/s" % (2e-9 * n**3 / t_jit.best))
 ```
+--------------------------------------------------------------------------------------------------------------------------------------
 
 
-## CONTENTS
-
-
-# Connect by SSH
-
-
-
-# 1. BASIC LINUX COMMANDS
-# 2. SLURM
-# 3. APTTAINERS/SINGULARITY CONTAINERS
-# 4. Python
+# Debugging
 
 While working as AI/HPC Research Engineer, there are number of errors and bugs that I encounter on daily basis related to Linux, HPC tools, Containers, and Python programming. I have decided to pen them down on a git repo with the respective solutions...
 
