@@ -71,12 +71,14 @@ Live Demonstration on the New Cluster(90 minutes session)
 ### 5. JupyterLab and Jupyter Notebook Tutorial
 
 ### 6. Python/Numba
+Examples and code demos
 
 HOW TO SUBMIT PYTHON SCRIPT ON THE CLUSTER.
 
 Demonstrate the power of Numba/Python. Why use HPC?
 
 # Matrix Multiplication
+
 ```
 import numpy
 def dot(a, b):
