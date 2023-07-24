@@ -23,10 +23,11 @@ CONTENTS
 1. Connect by SSH
 2. Basic Linux Commands
 3. SLURM/CLAM
-4. Jupyter Notebook/JupyterLab/Google Colab
-5. Apptainer/Singularity Containerization
-6. Parallel Programming(CUDA Python/Numba/C++)
-7. HPC for AI
+4. Git/Gitlab
+5. Parallel Programming(CUDA Python/Numba/C++)
+6. Apptainer/Singularity Containerization
+7. Jupyter Notebook/JupyterLab/Google Colab
+8. HPC for AI
 
 ### 1. Connect to SUPERCOMPUTER via SSH
 
