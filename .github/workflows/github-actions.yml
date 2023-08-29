@@ -1,5 +1,5 @@
 name: test-github-actions
-run-name: ${{ Mir }} is testing GitHub Actions
+run-name: ${{ github.actor }} is testing GitHub Actions
 on: [push]
 jobs:
   check-bats-version:
