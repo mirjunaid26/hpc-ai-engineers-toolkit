@@ -69,7 +69,7 @@ In this example, the job script specifies the job name, the output file name, th
 sbatch job_script.sh
 
 ```
-This will submit your job to the SLURM scheduler for execution.
+This will submit your job to SLURM scheduler for execution.
 
 - Checking Job Status: You can check the status of your jobs using the squeue command:
 ```
