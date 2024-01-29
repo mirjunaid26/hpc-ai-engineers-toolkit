@@ -46,7 +46,7 @@ Open a terminal and SSH as shown below
 ssh username@liger-ec-nantes.fr
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
-### 3. SLURM
+### 3. SLURM: Workload Manager
 
 SLURM (Simple Linux Utility for Resource Management) is a popular job scheduling and workload management system used in many high-performance computing environments. SLURM allows users to submit and manage jobs on a cluster of computers. It provides a framework for allocating resources (such as CPU cores, memory, and GPUs) and scheduling jobs efficiently.
 - Logging in: To use SLURM, you need access to a cluster where SLURM is installed. Log in to the cluster using SSH or any other method provided by your system administrator.
